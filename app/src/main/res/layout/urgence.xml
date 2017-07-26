@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.andrick.mob.Urgence">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="278dp">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="URGENCE"
+                android:id="@+id/textView6"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="50dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:background="@android:color/holo_red_dark" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="161dp"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="117dp"
+                    android:padding="1dp">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="POMPIER"
+                        android:id="@+id/pompier"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:textColor="#ffffff"
+                        android:autoText="false"
+                        android:background="#fa7304"
+                        android:textStyle="bold"
+                        android:textSize="30sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="117dp"
+                    android:padding="1dp">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="AMBULANCE"
+                        android:id="@+id/ambulance"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"
+                        android:background="#931520"
+                        android:textSize="23sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="161dp"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="117dp"
+                    android:padding="1dp">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="POLICE"
+                        android:id="@+id/police"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:textColor="#ffffff"
+                        android:background="#1f2cb3"
+                        android:autoText="false"
+                        android:textStyle="bold"
+                        android:textSize="30sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="117dp"
+                    android:padding="1dp">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="SERVICE CLIENT"
+                        android:id="@+id/service_client"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:textColor="#ffffff"
+                        android:autoText="false"
+                        android:background="#0bc624"
+                        android:textStyle="bold"
+                        android:textSize="19sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

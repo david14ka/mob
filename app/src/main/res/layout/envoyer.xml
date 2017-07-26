@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.andrick.mob.Envoyer">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="276dp">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="ENVOYER"
+                android:id="@+id/textView7"
+                android:gravity="center_vertical|center_horizontal"
+                android:background="@android:color/holo_green_dark"
+                android:textStyle="bold"
+                android:textSize="50sp"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|center_horizontal">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:padding="1sp">
+
+                <TextView
+                    android:layout_width="202dp"
+                    android:layout_height="fill_parent"
+                    android:text="CREDIT"
+                    android:id="@+id/env_credit"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:background="#096766"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:textSize="30sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:padding="1sp">
+
+                <TextView
+                    android:layout_width="202dp"
+                    android:layout_height="fill_parent"
+                    android:text="SMS"
+                    android:id="@+id/env_sms"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:background="#5c0303"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:textSize="30sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:padding="1sp">
+
+                <TextView
+                    android:layout_width="202dp"
+                    android:layout_height="fill_parent"
+                    android:text="MEGA"
+                    android:id="@+id/env_mega"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:autoText="false"
+                    android:background="#88057b"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:textSize="30sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

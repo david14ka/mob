@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.andrick.mob.Splash"
+    android:gravity="center_vertical|center_horizontal"
+    android:background="@drawable/btn_black">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mob App"
+        android:layout_gravity="center"
+        android:textSize="45dp"
+        android:textColor="#0f256c"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="simple, mais rapide"
+        android:layout_gravity="center"
+        android:textSize="16dp"
+        android:layout_marginTop="40dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Powered by David"
+        android:layout_gravity="bottom|right"
+        android:textColor="#fff"
+        android:padding="30dp"/>
+
+</FrameLayout>

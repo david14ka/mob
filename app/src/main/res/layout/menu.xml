@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.andrick.mob.Menu">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="250dp"
+            android:background="@color/colorPrimaryDark">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Choisir Action"
+                android:id="@+id/textView2"
+                android:gravity="center_vertical|center_horizontal"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="45dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="109dp"
+                android:padding="1dp">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="161dp"
+                    android:layout_height="fill_parent"
+                    android:padding="1dp">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="RECHARGE"
+                        android:id="@+id/recharge_m"
+                        android:textColor="#ffffff"
+                        android:textSize="30dp"
+                        android:textStyle="bold"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:background="@color/colorAccent" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="161dp"
+                    android:layout_height="fill_parent"
+                    android:padding="1dp">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="ACTIVATION"
+                        android:id="@+id/activation"
+                        android:textColor="#ffffff"
+                        android:textSize="25dp"
+                        android:textStyle="bold"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:background="@color/material_deep_teal_500" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="1dp">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="162dp"
+                    android:layout_height="fill_parent"
+                    android:padding="1dp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="fill_parent"
+                        android:layout_height="110dp"
+                        android:paddingBottom="1dp"
+                        android:padding="1dp">
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:text="VERIFICATION"
+                            android:id="@+id/verification"
+                            android:paddingBottom="1dp"
+                            android:textColor="#ffffff"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:textStyle="bold"
+                            android:textSize="20dp"
+                            android:background="@color/material_grey_850" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="1dp">
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:text="About"
+                            android:id="@+id/textView9"
+                            android:textColor="#ffffff"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:textStyle="bold"
+                            android:textSize="20dp"
+                            android:background="#cf660484" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="162dp"
+                    android:layout_height="fill_parent"
+                    android:padding="1dp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="49dp"
+                        android:padding="1dp">
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:text="URGENCE"
+                            android:id="@+id/urgence"
+                            android:background="@android:color/holo_red_dark"
+                            android:paddingBottom="1dp"
+                            android:textColor="#ffffff"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:textStyle="bold"
+                            android:textSize="15dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="66dp"
+                        android:padding="1dp">
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:text="MONEY"
+                            android:id="@+id/money"
+                            android:background="@android:color/holo_orange_dark"
+                            android:paddingBottom="1dp"
+                            android:textColor="#ffffff"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:textStyle="bold"
+                            android:textSize="20dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="1dp">
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:text="ENVOYER "
+                            android:id="@+id/envoyer_men"
+                            android:autoText="false"
+                            android:background="@android:color/holo_green_dark"
+                            android:textColor="#ffffff"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:textStyle="bold"
+                            android:textSize="20dp"
+                            android:textIsSelectable="false" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

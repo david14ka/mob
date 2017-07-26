@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    tools:context="com.example.andrick.mob.Verification">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            >
+            <TextView
+                style="@style/text_button"
+                android:text="SOLDE"
+                android:id="@+id/solde"
+                android:background="@drawable/btn_blue1"
+                />
+
+            <TextView
+                style="@style/text_button"
+                android:text="SMS"
+                android:id="@+id/sms"
+                android:background="@drawable/btn_yello"
+                />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/text_button_horizontal"
+                    android:text="BONUS"
+                    android:id="@+id/bonus"
+                    android:background="@drawable/btn_orange"
+                    />
+
+                <TextView
+                    style="@style/text_button_horizontal"
+                    android:text="MEGA"
+                    android:id="@+id/mega"
+                    android:background="@drawable/btn_green1"
+                    />
+            </LinearLayout>
+            <TextView
+                style="@style/text_button"
+                android:text="MINUTES"
+                android:id="@+id/minute"
+                android:background="@drawable/btn_blue"
+                />
+
+            <TextView
+                style="@style/text_button"
+                android:text="SOLDE EMPRUNT"
+                android:id="@+id/solde_emprunt"
+                android:background="@drawable/btn_blue4"
+                />
+        </LinearLayout>
+        <include layout="@layout/footer"
+            android:layout_height="100dp"
+            android:layout_width="match_parent" />
+    </LinearLayout>
+    
+</FrameLayout>

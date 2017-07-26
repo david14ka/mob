@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2017. David Kazad.
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:padding="16dp">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardviewFooter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="3dp"
+        app:contentPadding="1dp"
+        app:cardElevation="15dp"
+        app:cardBackgroundColor="#eeeef1">
+
+        <LinearLayout
+            android:id="@+id/linearFooter"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/imageAirtel"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@mipmap/ic_airtel"
+                android:contentDescription="1"
+                android:onClick="footerOnClick"/>
+            <ImageView
+                android:id="@+id/imageOrange"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@mipmap/ic_orange"
+                android:contentDescription="2"
+                android:onClick="footerOnClick"/>
+            <ImageView
+                android:id="@+id/imageTigo"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@mipmap/ic_tigo"
+                android:contentDescription="3"
+                android:onClick="footerOnClick"/>
+            <ImageView
+                android:id="@+id/imageAfricell"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@mipmap/ic_africell"
+                android:contentDescription="4"
+                android:onClick="footerOnClick"/>
+            <ImageView
+                android:id="@+id/imageVodacom"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@mipmap/ic_vodacom"
+                android:contentDescription="5"
+                android:onClick="footerOnClick"/>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

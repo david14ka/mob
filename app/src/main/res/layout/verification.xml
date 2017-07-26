@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.andrick.mob.Verification">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="244dp">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="VERIFICATION"
+                android:id="@+id/textView5"
+                android:background="@color/material_grey_850"
+                android:gravity="center_vertical|center_horizontal"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="45sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="78dp"
+                android:padding="1sp">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="SOLDE"
+                    android:id="@+id/solde"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:background="#7a3025"
+                    android:textSize="40sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="109dp"
+                android:padding="1sp">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="173dp"
+                    android:layout_height="match_parent"
+                    android:padding="1sp">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="SMS"
+                        android:id="@+id/sms"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:textStyle="bold"
+                        android:textColor="#ffffff"
+                        android:background="#cdaa10"
+                        android:textSize="40sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="1sp">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="54dp"
+                        android:padding="1sp">
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:text="BONUS"
+                            android:id="@+id/bonus"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:textColor="#ffffff"
+                            android:textStyle="bold"
+                            android:background="#8ac015"
+                            android:textSize="30sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="1sp">
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:text="MEGA"
+                            android:id="@+id/mega"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:textStyle="bold"
+                            android:textColor="#ffffff"
+                            android:background="#13d383"
+                            android:textSize="30sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="1sp">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="194dp"
+                    android:layout_height="match_parent"
+                    android:padding="1sp">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="MINUTES"
+                        android:id="@+id/minute"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"
+                        android:background="#8e06bb"
+                        android:textSize="30sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:padding="1sp">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="SOLDE EMPRUNT"
+                        android:id="@+id/solde_emprunt"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"
+                        android:background="#0bc7d4"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

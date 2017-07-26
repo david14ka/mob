@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.andrick.mob.ActivationMin">
+
+    <include layout="@layout/header"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:padding="20dp"
+        android:weightSum="1">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:layout_weight="0.11"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="fill_parent"
+                android:text="Numero"
+                android:id="@+id/textView13"
+                android:layout_weight="0.16"
+                android:gravity="center_vertical|center_horizontal" />
+
+            <Spinner
+                android:layout_width="250dp"
+                android:layout_height="fill_parent"
+                android:id="@+id/spinner2" />
+        </LinearLayout>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/editText3"
+            android:hint="NOMBRE UNITES" />
+
+        <Button
+            android:layout_width="154dp"
+            android:layout_height="wrap_content"
+            android:text="ACTIVER"
+            android:id="@+id/button"
+            android:layout_weight="0.07" />
+
+    </LinearLayout>
+    <include layout="@layout/footer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+</LinearLayout>

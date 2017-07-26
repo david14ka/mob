@@ -1,0 +1,47 @@
+<!--
+  ~ Copyright (c) 2017. David Kazad.
+  -->
+
+<resources>
+    <string name="app_name">Mob</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Torquiss prarere! </string>
+    <string name="slide_1_desc">What’s the secret to roasted and sour onion? Always use packaged brown sugar.</string>
+
+    <string name="slide_2_title">Friendship!  </string>
+    <string name="slide_2_desc">Countless resistances will be lost in stigmas like sensors in attitudes. </string>
+
+    <string name="slide_3_title">Raspberries drink</string>
+    <string name="slide_3_desc">Enamel each side of the chicory with twenty and a half teaspoons of celery. </string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+    <string name="action_sign_in_short">Suivant</string>
+    <string name="copyright">Copyright (c) 2017. David Kazad. </string>
+    <string name="title_activity_webview">iRod</string>
+    <string name="action_settings">Setting</string>
+    <string name="synchronize">Synchronize</string>
+    <string name="help">Help</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <!-- -
+        This is an ad unit ID for a banner test ad. Replace with your own banner ad unit id.
+        For more information, see https://support.google.com/admob/answer/3052638
+    <!- -->
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="title_activity_main3">Main3Activity</string>
+
+    <string name="interstitial_ad_sample">Interstitial Ad Sample</string>
+    <string name="start_level">Level 1</string>
+    <string name="next_level">Next Level</string>
+    <!-- -
+        This is an ad unit ID for an interstitial test ad. Replace with your own interstitial ad unit id.
+        For more information, see https://support.google.com/admob/answer/3052638
+    <!- -->
+    <string name="interstitial_ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>
+</resources>
