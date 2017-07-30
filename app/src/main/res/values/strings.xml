@@ -21,7 +21,7 @@
     <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
     <string name="play_again">Play Again</string>
     <string name="action_sign_in_short">Suivant</string>
-    <string name="copyright">Copyright (c) 2017. David Kazad. </string>
+    <string name="copyright">Copyright (c) 2017. { OverLoad } </string>
     <string name="title_activity_webview">iRod</string>
     <string name="action_settings">Setting</string>
     <string name="synchronize">Synchronize</string>
@@ -44,4 +44,9 @@
         For more information, see https://support.google.com/admob/answer/3052638
     <!- -->
     <string name="interstitial_ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>
+
+    <string name="envoyer">Envoyer</string>
+    <string name="annuler">Annuler</string>
+    <string name="info_titre">Debloquer</string>
+    <string name="info_description">Pour debloquer toute les options celle-ci y comprise veuillez partager l\'info a 10 personnes sur whatsApp</string>
 </resources>

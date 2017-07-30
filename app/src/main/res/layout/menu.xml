@@ -120,7 +120,7 @@
                             android:layout_width="fill_parent"
                             android:layout_height="fill_parent"
                             android:text="About"
-                            android:id="@+id/textView9"
+                            android:id="@+id/abouts"
                             android:textColor="#ffffff"
                             android:gravity="center_vertical|center_horizontal"
                             android:textStyle="bold"

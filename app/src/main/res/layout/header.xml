@@ -22,7 +22,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="220dp"
-                android:id="@+id/imageView"
+                android:id="@+id/image_header"
                 android:layout_gravity="top"
                 android:src="@drawable/squirrel"
                 android:scaleType="fitXY"/>
