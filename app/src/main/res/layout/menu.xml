@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
-    tools:context="com.example.andrick.mob.Menu">
+    tools:context="com.example.andrick.mob.Menu"
+    android:gravity="center_vertical|center_horizontal">
 
     <LinearLayout
         android:orientation="vertical"
@@ -15,30 +16,33 @@
             android:orientation="vertical"
             android:layout_width="fill_parent"
             android:layout_height="250dp"
-            android:background="@color/colorPrimaryDark">
+            android:padding="5sp">
 
             <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:text="Choisir Action"
+                android:text="Que voulez-vous faire?"
                 android:id="@+id/textView2"
                 android:gravity="center_vertical|center_horizontal"
                 android:textColor="#ffffff"
                 android:textStyle="bold"
-                android:textSize="45dp" />
+                android:textSize="45dp"
+                android:background="@drawable/btn_blue" />
 
         </LinearLayout>
 
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|center_horizontal">
 
             <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="109dp"
-                android:padding="1dp">
+                android:padding="1dp"
+                android:gravity="center_vertical|center_horizontal">
 
                 <LinearLayout
                     android:orientation="vertical"
@@ -47,15 +51,15 @@
                     android:padding="1dp">
 
                     <TextView
-                        android:layout_width="fill_parent"
-                        android:layout_height="fill_parent"
-                        android:text="RECHARGE"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="RECHARGER"
                         android:id="@+id/recharge_m"
                         android:textColor="#ffffff"
-                        android:textSize="30dp"
+                        android:textSize="25dp"
                         android:textStyle="bold"
                         android:gravity="center_vertical|center_horizontal"
-                        android:background="@color/colorAccent" />
+                        android:background="@drawable/btn_orange" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -65,15 +69,15 @@
                     android:padding="1dp">
 
                     <TextView
-                        android:layout_width="fill_parent"
-                        android:layout_height="fill_parent"
-                        android:text="ACTIVATION"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="ACTIVER"
                         android:id="@+id/activation"
                         android:textColor="#ffffff"
                         android:textSize="25dp"
                         android:textStyle="bold"
                         android:gravity="center_vertical|center_horizontal"
-                        android:background="@color/material_deep_teal_500" />
+                        android:background="@drawable/btn_yello" />
                 </LinearLayout>
 
             </LinearLayout>
@@ -82,7 +86,8 @@
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:padding="1dp">
+                android:padding="1dp"
+                android:gravity="center_vertical|center_horizontal">
 
                 <LinearLayout
                     android:orientation="vertical"
@@ -98,16 +103,16 @@
                         android:padding="1dp">
 
                         <TextView
-                            android:layout_width="fill_parent"
-                            android:layout_height="fill_parent"
-                            android:text="VERIFICATION"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="VERIFIER"
                             android:id="@+id/verification"
                             android:paddingBottom="1dp"
                             android:textColor="#ffffff"
                             android:gravity="center_vertical|center_horizontal"
                             android:textStyle="bold"
-                            android:textSize="20dp"
-                            android:background="@color/material_grey_850" />
+                            android:background="@drawable/btn_green"
+                            android:textSize="30dp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -117,15 +122,15 @@
                         android:padding="1dp">
 
                         <TextView
-                            android:layout_width="fill_parent"
-                            android:layout_height="fill_parent"
+                            android:layout_width="match_parent"
+                            android:layout_height="36sp"
                             android:text="About"
                             android:id="@+id/abouts"
                             android:textColor="#ffffff"
                             android:gravity="center_vertical|center_horizontal"
                             android:textStyle="bold"
                             android:textSize="20dp"
-                            android:background="#cf660484" />
+                            android:background="@drawable/btn_blue" /> 
                     </LinearLayout>
                 </LinearLayout>
 
@@ -142,11 +147,11 @@
                         android:padding="1dp">
 
                         <TextView
-                            android:layout_width="fill_parent"
-                            android:layout_height="fill_parent"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
                             android:text="URGENCE"
                             android:id="@+id/urgence"
-                            android:background="@android:color/holo_red_dark"
+                            android:background="@drawable/btn_red"
                             android:paddingBottom="1dp"
                             android:textColor="#ffffff"
                             android:gravity="center_vertical|center_horizontal"
@@ -161,11 +166,11 @@
                         android:padding="1dp">
 
                         <TextView
-                            android:layout_width="fill_parent"
-                            android:layout_height="fill_parent"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
                             android:text="MONEY"
                             android:id="@+id/money"
-                            android:background="@android:color/holo_orange_dark"
+                            android:background="@drawable/btn_green"
                             android:paddingBottom="1dp"
                             android:textColor="#ffffff"
                             android:gravity="center_vertical|center_horizontal"
@@ -180,12 +185,12 @@
                         android:padding="1dp">
 
                         <TextView
-                            android:layout_width="fill_parent"
-                            android:layout_height="fill_parent"
+                            android:layout_width="match_parent"
+                            android:layout_height="30sp"
                             android:text="ENVOYER "
                             android:id="@+id/envoyer_men"
                             android:autoText="false"
-                            android:background="@android:color/holo_green_dark"
+                            android:background="@drawable/btn_black"
                             android:textColor="#ffffff"
                             android:gravity="center_vertical|center_horizontal"
                             android:textStyle="bold"

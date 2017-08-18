@@ -21,7 +21,7 @@
     <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
     <string name="play_again">Play Again</string>
     <string name="action_sign_in_short">Suivant</string>
-    <string name="copyright">Copyright (c) 2017. { OverLoad } </string>
+    <string name="copyright">Copyright (c) 2017. { @drc-anonymous } </string>
     <string name="title_activity_webview">iRod</string>
     <string name="action_settings">Setting</string>
     <string name="synchronize">Synchronize</string>
@@ -49,4 +49,16 @@
     <string name="annuler">Annuler</string>
     <string name="info_titre">Debloquer</string>
     <string name="info_description">Pour debloquer toute les options celle-ci y comprise veuillez partager l\'info a 10 personnes sur whatsApp</string>
+
+    <string name="ok">OK</string>
+
+    <string name="titre_ab">A propos de nous</string>
+    <string name="descriptions">Mob version 1.0 est une appication developper par \n { @drc-anonymous } pour toute information ou signal d\'un rapport d\'erreur contacter le +24399 0666 768 ou +24397 0015 092 soit par email: drc.kaleidoscope@gmail.com </string>
+
+    <string name="titre_bloc">Info bulle</string>
+    <string name="texte_descript">Ce service n\'est encore disponible veuillez patienter une mise a jour de l\'application</string>
+
+    <string name="partage">Partager</string>
+    <string name="info_part">Appuyer sur Partager pour en parler a vos amis sur whatsapp; Merci pour votre soutient </string>
+
 </resources>

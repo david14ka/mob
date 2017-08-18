@@ -28,15 +28,15 @@ public class Recharge extends AppCompatActivity implements IFooter{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.recharge);
 
-        Toolbar toolbar=(Toolbar)findViewById(R.id.toolbar);
+        //Toolbar toolbar=(Toolbar)findViewById(R.id.toolbar);
 
-        setSupportActionBar(toolbar);
+        //setSupportActionBar(toolbar);
 
         //toolbar.setTitle("Recharger votre compte");
 
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        //getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         //getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_clear_black_24dp);
-        getSupportActionBar().setTitle("");
+       // getSupportActionBar().setTitle("");
 
         final String[] recharge_t = {"*525*", "*101*", "*100*", "*1001*", "*212*"};
 
